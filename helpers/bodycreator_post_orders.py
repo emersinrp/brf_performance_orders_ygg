@@ -18,8 +18,8 @@ class BodyCreatorDefaultOrders:
                 "type": "YB2B",
                 "channel": "BEES",
                 "sales_organization": "1714",
-                "delivery_date": "2023-11-07T16:57:39.388Z",
-                "created_date": f"{current_datetime.strftime('%Y-%m-%dT%H:%M:%S.3888Z')}",
+                "delivery_date": f"{current_datetime.strftime('%Y-%m-%dT%H:%M:%S.388Z')}",
+                "created_date": f"{current_datetime.strftime('%Y-%m-%dT%H:%M:%S.388Z')}",
                 "customer": {
                     "document_number": "11178500000134",
                     "payment_method": "R007",

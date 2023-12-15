@@ -40,7 +40,6 @@ class CargaOrders(HttpUser):
                     print(
                         f"---- SUCESSO NA REQUISICAO ----\n"
                         f"Response: {resposta['message']} \n"
-                        f"Identifier: {resposta['identifier']} \n"
                         f"Order number enviado: {body['order']['customer']['order_number']} \n"
                         f"STATUS CODE: {response.status_code} \n"
 
