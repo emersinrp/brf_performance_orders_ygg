@@ -16,3 +16,4 @@ def get_authentication():
     resposta = response.json()
 
     return f'{resposta["token_type"]} {resposta["access_token"]}'
+

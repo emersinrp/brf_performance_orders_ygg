@@ -12,7 +12,7 @@ def create_bees_post_orders(null=None):
             "channel": "BEES",
             "sales_organization": "1714",
             "delivery_date": f"{future_data.strftime('%Y-%m-%dT%H:%M:%S.388Z')}",
-            "created_date": f"{future_data.strftime('%Y-%m-%dT%H:%M:%S.388Z')}",
+            "created_date": f"{current_datetime.strftime('%Y-%m-%dT%H:%M:%S.388Z')}",
             "customer": {
                 "document_number": "11178500000134",
                 "payment_method": "R007",
@@ -90,3 +90,4 @@ def rules_body():
     future_data = current_datetime + timedelta(days=3)
 
     return order_number, fuso_horario, current_datetime, future_data
+
