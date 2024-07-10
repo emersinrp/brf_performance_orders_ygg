@@ -1,3 +1,5 @@
+from helpers.auth import get_authentication
+
 failureMessage = "Order não criada"
 
 
@@ -28,8 +30,10 @@ def rules_post_order(client, body, post_orders, function_name):
                 )
 
         elif response.status_code == 401:
-            # self.authorization_qas = get_authentication() -> Comentado para utilizar em ambiente de DEV
-            rules_post_order(client, body, post_orders, function_name)
+
+            return False
+
+
 
         else:
             print(
@@ -40,6 +44,8 @@ def rules_post_order(client, body, post_orders, function_name):
             response.failure(
                 failureMessage + f" Status CODE: {response.status_code}"
             )
+
+    return True
 
 
 def rules_get_health(client, consult_orders_health_check, function_name):
@@ -69,4 +75,3 @@ def rules_get_health(client, consult_orders_health_check, function_name):
             response.failure(
                 failureMessage + f" Status CODE: {response.status_code}"
             )
-

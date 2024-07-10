@@ -1,4 +1,5 @@
 import requests
+from datetime import datetime, timedelta
 
 
 def get_authentication():
@@ -19,5 +20,7 @@ def get_authentication():
     response = requests.request("POST", url, headers=headers, data=payload)
     resposta = response.json()
 
-    return f'{resposta["token_type"]} {resposta["access_token"]}'
+    token_expires = datetime.now() + timedelta(seconds=resposta["expires_in"])
+
+    return f'{resposta["token_type"]} {resposta["access_token"]}', token_expires
 

@@ -152,7 +152,10 @@ def create_mex_post_orders(null=None):
                     "global_desk": "",
                     "por_navio": "",
                     "por_container": "X",
-                    "validacao_sif": "343;331;335;320;322;358;377;310;364;328;316;383;380;382;321;323;367;378;381"
+                    "validacao_sif": "!@@@@@@@@@@@@@@@@!!!!!!!!!!!!!!!!!!!!$$$$$$$$$$$$$"
+                                     "%%%%%%%%%%%%%%%%%%%%%%%%%%%áááááaá´çççççççççç((())**&&¨¨¨$$@##@#@@![{[[["
+                                     "´´´´´`´^^^^~~~~]]}}}];;;:::...>>,,"
+                                     "<<< 343;331;335;320;322;358;377;310;364;328;316;383;380;382;321;323;367;378;381"
                                      ";338;390;391;386;389;365;387;368;349;350;879;312;300;375;E03;E04;305;35;176",
                     "consignee_bl": "0000424581",
                     "notify_bl": "0000424581",
@@ -201,11 +204,101 @@ def create_mex_post_orders(null=None):
                     "espelho": "",
                     "instructions": {
                         "invoice": "",
-                        "packing_list": "",
+                        "packing_list": "!@@@@@@@@@@@@@@@@!!!!!!!!!!!!!!!!!!!!$$$$$$$$$$$$$"
+                                        "%%%%%%%%%%%%%%%%%%%%%%%%%%%áááááaá´çççççççççç((())**&&¨¨¨$$@##@#@@![{[[["
+                                        "´´´´´`´^^^^~~~~]]}}}];;;:::...>>,,"
+                                        'Um jogo de documentos por '
+                                        'container\n\n'
+                                        '----------------------------------------------------------------\n\nTodos os '
+                                        'documentos em nome de:\n\nCIRKEL DIRECT SALES N.V.\n\nWILHELMINASTRAAT '
+                                        '62\n\nPARAMARIBO, '
+                                        'SURINAME\n\nTel:597425254\n\n'
+                                        '----------------------------------------------------------------\n\nEMITIR '
+                                        'B/L TELEX RELEASE (PORÉM O MESMO SÓ PODERÁ SER LIBERADO MEDIANTE CONFIRMAÇÃO '
+                                        'DE PAGAMENTO)\n\nObs: Referente a emissão do BL, notar que não é usado Zip '
+                                        'Code no '
+                                        'Suriname.\n\n'
+                                        '----------------------------------------------------------------\n\nEnviar '
+                                        'cópia dos documentos para os seguintes '
+                                        'emails:\n\nsaskia@cirkelgroup.com;cds.finance@cirkelgroup.com\n\n'
+                                        '----------------------------------------------------------------\n\nEnviar '
+                                        'documentos originais para:\n\nCIRKEL DIRECT SALES N.V.\n\nWILHELMINASTRAAT '
+                                        '62\n\nPARAMARIBO, SURINAME\n\nA/C:Saskia\n\nTel:597425254',
+                        'logistic': "!@@@@@@@@@@@@@@@@!!!!!!!!!!!!!!!!!!!!$$$$$$$$$$$$$"
+                                     "%%%%%%%%%%%%%%%%%%%%%%%%%%%áááááaá´çççççççççç((())**&&¨¨¨$$@##@#@@![{[[["
+                                     "´´´´´`´^^^^~~~~]]}}}];;;:::...>>,,""3 shipments and make sure that the containers will not arrive at the same time at the destination.\n..\nNÃO MIXAR\n..\nPALETIZADO\n..\nNote: containeres não podem chegar na mesma data\n..\n..\nAUTORIZADO ANTECIPAR DESDE QUE RESPEITE A RESTRIÇÃO DE CHEGADA\n..\nATENÇÃO: OBRIGATÓRIO O USO DE DATALOGGER (MODELO SENSITECH COM ESPETO)\nACORDO COM REGULAMENTO DA JORDÂNIA. TEMPERATURA -22 ºC. FAZER O FEFO DOS\nDATALOGGERS (9 MESES DE VALIDADE).\n..\nSEPARAR 01 CAIXA POR ITEM / POR DATA DE PRODUÇÃO EM CADA CONTAINER; E\nESTA CAIXA DEVERÁ CONTER UMA ETIQUETA COM A DESIGNAÇÃO \"SAMPLE\".\n..\nPRODUTOS COM 12 MESES DE VALIDADE: O PRAZO DE PRODUÇÃO E DESEMBARAÇO DA\nCARGA NO DESTINO É DE 90 DIAS.\nPRODUTOS COM 09 MESES DE VALIDADE: O PRAZO DE PRODUÇÃO E DESEMBARAÇO DA\nCARGA NO DESTINO É DE 60 DIAS.\n..\nCONSIGNEE AND NOTIFY:\nCompany name: Acadian International Trade\nAcadian International Trade\nAmman-Jordan\nAl-Madina Al-Monawara St. Building No. 208 / Suite 408\nTel: 0096265819460/795526032\nEmail: info@acadian-trade.com\nTAX ID: 730001601\n..\nENVIAR SHIPPING SCHEDULE:\nInfo@acadian-trade.com\n.\nPart Lot.: NÃO\nTelex Release.: NÃO\nSea Waybill.: NÃO\nL/C(Cart. Crédito).: NÃO\nDU.: NÃO\nPIP.: NÃO\nMOZ.: NÃO\nL/C: NÃO\nTipo de Carregamento.: ZREP - Repaletizado\nAgrupamento: NÃO\nIncoterms.: NÃO\nQuantidade CNTR.: SIM - 000001\nSKU Espelho.: NÃO\nFoto: NÃO\nInspeção.: NÃO\nEtiqueta.: NÃO",
+                        'load': "!@@@@@@@@@@@@@@@@!!!!!!!!!!!!!!!!!!!!$$$$$$$$$$$$$"
+                                     "%%%%%%%%%%%%%%%%%%%%%%%%%%%áááááaá´çççççççççç((())**&&¨¨¨$$@##@#@@![{[[["
+                                     "´´´´´`´^^^^~~~~]]}}}];;;:::...>>,," "3 shipments and make sure that the containers will not arrive at the same time at the destination.\n..\nNÃO MIXAR\n..\nORDEM PALETIZADA\n..\n..\n..\nNote: containeres não podem chegar na mesma data\n..\n..\n..\nATENÇÃO: OBRIGATÓRIO O USO DE DATALOGGER (MODELO SENSITECH COM ESPETO),\nDE\nACORDO COM REGULAMENTO DA JORDÂNIA. TEMPERATURA -22 ºC. FAZER O FEFO\nDOSDATALOGGERS (9 MESES DE VALIDADE).\n..\nSEPARAR 01 CAIXA POR ITEM / POR DATA DE PRODUÇÃO EM CADA CONTAINER; E\nESTA CAIXA DEVERÁ CONTER UMA ETIQUETA COM A DESIGNAÇÃO \"SAMPLE\"\n..\nPRODUTOS COM 12 MESES DE VALIDADE: O PRAZO DE PRODUÇÃO E DESEMBARAÇO DA\nCARGA NO DESTINO É DE 90 DIAS.\nPRODUTOS COM 09 MESES DE VALIDADE: O PRAZO DE PRODUÇÃO E DESEMBARAÇO DA\nCARGA NO DESTINO É DE 60 DIAS.",
+                        'invoice': "!@@@@@@@@@@@@@@@@!!!!!!!!!!!!!!!!!!!!$$$$$$$$$$$$$"
+                                     "%%%%%%%%%%%%%%%%%%%%%%%%%%%áááááaá´çççççççççç((())**&&¨¨¨$$@##@#@@![{[[["
+                                     "´´´´´`´^^^^~~~~]]}}}];;;:::...>>,,"'Um jogo de documentos por '
+                                   'container\n\n----------------------------------------------------------------\n'
+                                   '\nTodos os documentos em nome de:\n\nCIRKEL DIRECT SALES N.V.\n\nWILHELMINASTRAAT '
+                                   '62\n\nPARAMARIBO, '
+                                   'SURINAME\n\nTel:597425254\n\n'
+                                   '----------------------------------------------------------------\n\nEMITIR B/L '
+                                   'TELEX RELEASE (PORÉM O MESMO SÓ PODERÁ SER LIBERADO MEDIANTE CONFIRMAÇÃO DE '
+                                   'PAGAMENTO)\n\nObs: Referente a emissão do BL, notar que não é usado Zip Code no '
+                                   'Suriname.\n\n----------------------------------------------------------------\n'
+                                   '\nEnviar cópia dos documentos para os seguintes '
+                                   'emails:\n\nsaskia@cirkelgroup.com;cds.finance@cirkelgroup.com\n\n'
+                                   '----------------------------------------------------------------\n\nEnviar '
+                                   'documentos originais para:\n\nCIRKEL DIRECT SALES N.V.\n\nWILHELMINASTRAAT '
+                                   '62\n\nPARAMARIBO, SURINAME\n\nA/C:Saskia\n\nTel:597425254',
+                        'documentary': "!@@@@@@@@@@@@@@@@!!!!!!!!!!!!!!!!!!!!$$$$$$$$$$$$$"
+                                     "%%%%%%%%%%%%%%%%%%%%%%%%%%%áááááaá´çççççççççç((())**&&¨¨¨$$@##@#@@![{[[["
+                                     "´´´´´`´^^^^~~~~]]}}}];;;:::...>>,,""** CRIAR 1 EMBARQUE PARA CADA CONTAINER**\n..\nNÃO MIXAR PIV'S DEVIDO RESTRIÇÃO DE CHEGADA\n..\n**GERAR UM JOGO DE DOCUMENTO PARA CADA CONTAINER**\n..\n**SOLICITAR TELEX RELEASE APÓS CONFIRMAÇAO DE PAGAMENTO***\n..\nAPÓS CONFIRMAÇAO DE PAGAMENTO ENVIAR DOCS (EXCETO BL) PARA:\nAcadian International Trade\nAmman-Jordan\nAl-Madina Al-Monawara St. Building No. 208 / Suite 408\nTel: 0096265819460/795526032\nEmail: info@acadian-trade.com\n..\nEMAIL: Info@acadian-trade.com\n..\nLEGALIZAÇAO: ESCRITÓRIO DA BRF VIA CERTIFICAÇÃO FACISC\n..",
+                        'csi': "Acadian International Trade\nAmman-Jordan\nAl-Madina Al-Monawara St. Building No. 208 / Suite 408\nTel: 0096265819460/795526032\nEmail: info@acadian-trade.com",
+                        'bill_of_lading': "!@@@@@@@@@@@@@@@@!!!!!!!!!!!!!!!!!!!!$$$$$$$$$$$$$"
+                                     "%%%%%%%%%%%%%%%%%%%%%%%%%%%áááááaá´çççççççççç((())**&&¨¨¨$$@##@#@@![{[[["
+                                     "´´´´´`´^^^^~~~~]]}}}];;;:::...>>,,"'Um jogo de documentos por '
+                                          'container\n\n'
+                                          '----------------------------------------------------------------\n\nTodos '
+                                          'os documentos em nome de:\n\nCIRKEL DIRECT SALES N.V.\n\nWILHELMINASTRAAT '
+                                          '62\n\nPARAMARIBO, '
+                                          'SURINAME\n\nTel:597425254\n\n'
+                                          '----------------------------------------------------------------\n\nEMITIR '
+                                          'B/L TELEX RELEASE (PORÉM O MESMO SÓ PODERÁ SER LIBERADO MEDIANTE '
+                                          'CONFIRMAÇÃO DE PAGAMENTO)\n\nObs: Referente a emissão do BL, notar que não '
+                                          'é usado Zip Code no '
+                                          'Suriname.\n\n'
+                                          '----------------------------------------------------------------\n\nEnviar '
+                                          'cópia dos documentos para os seguintes '
+                                          'emails:\n\nsaskia@cirkelgroup.com;cds.finance@cirkelgroup.com\n\n'
+                                          '----------------------------------------------------------------\n\nEnviar '
+                                          'documentos originais para:\n\nCIRKEL DIRECT SALES N.V.\n\nWILHELMINASTRAAT '
+                                          '62\n\nPARAMARIBO, SURINAME\n\nA/C:Saskia\n\nTel:597425254',
+                        'analises_requisitos': "!@@@@@@@@@@@@@@@@!!!!!!!!!!!!!!!!!!!!$$$$$$$$$$$$$"
+                                     "%%%%%%%%%%%%%%%%%%%%%%%%%%%áááááaá´çççççççççç((())**&&¨¨¨$$@##@#@@![{[[["
+                                     "´´´´´`´^^^^~~~~]]}}}];;;:::...>>,,"'Um jogo de documentos por '
+                                               'container\n\n'
+                                               '----------------------------------------------------------------\n'
+                                               '\nTodos os documentos em nome de:\n\nCIRKEL DIRECT SALES '
+                                               'N.V.\n\nWILHELMINASTRAAT 62\n\nPARAMARIBO, '
+                                               'SURINAME\n\nTel:597425254\n\n'
+                                               '----------------------------------------------------------------\n'
+                                               '\nEMITIR B/L TELEX RELEASE (PORÉM O MESMO SÓ PODERÁ SER LIBERADO '
+                                               'MEDIANTE CONFIRMAÇÃO DE PAGAMENTO)\n\nObs: Referente a emissão do BL, '
+                                               'notar que não é usado Zip Code no '
+                                               'Suriname.\n\n'
+                                               '----------------------------------------------------------------\n'
+                                               '\nEnviar cópia dos documentos para os seguintes '
+                                               'emails:\n\nsaskia@cirkelgroup.com;cds.finance@cirkelgroup.com\n\n'
+                                               '----------------------------------------------------------------\n'
+                                               '\nEnviar documentos originais para:\n\nCIRKEL DIRECT SALES '
+                                               'N.V.\n\nWILHELMINASTRAAT 62\n\nPARAMARIBO, '
+                                               'SURINAME\n\nA/C:Saskia\n\nTel:597425254',
                         "bill_of_lading": "",
-                        "documentary": "1. Forma de Pagamento: Pagamento a 50 DIAS DO r o número de Pallets na "
+                        "documentary": "!@@@@@@@@@@@@@@@@!!!!!!!!!!!!!!!!!!!!$$$$$$$$$$$$$"
+                                       "%%%%%%%%%%%%%%%%%%%%%%%%%%%áááááaá´çççççççççç((())**&&¨¨¨$$@##@#@@![{[[["
+                                       "´´´´´`´^^^^~~~~]]}}}];;;:::...>>,,<<< 1. Forma de Pagamento: Pagamento a 50 "
+                                       "DIAS DO r o número de Pallets na"
                                        "fatura===8. Local de descarga: Não deve aparecer na fatura comercial",
-                        "logistic": "Datos para Contramarca – Cliente Quickfood:SIFtDescripcióntN° "
+                        "logistic": "!@@@@@@@@@@@@@@@@!!!!!!!!!!!!!!!!!!!!$$$$$$$$$$$$$"
+                                    "%%%%%%%%%%%%%%%%%%%%%%%%%%%áááááaá´çççççççççç((())**&&¨¨¨$$@##@#@@![{[[["
+                                    "´´´´´`´^^^^~~~~]]}}}];;;:::...>>,,<<< Datos para Contramarca – Cliente "
+                                    "Quickfood:SIFtDescripcióntN°"
                                     "RegistrotFechatVencimiento3681tCORTES DE CERDO - PERNILtI "
                                     "9186/110073/1t18/8/23t17/8/243681tCORTES DE CERDO - LOMOtI "
                                     "9186/110073/2t18/8/23t17/8/243681tCORTES DE CERDO - PALETAtI "
@@ -234,7 +327,9 @@ def create_mex_post_orders(null=None):
                                     "Waybill.: NÃOL/C(Cart. Crédito).: NÃODU.: NÃOPIP.: NÃOMOZ.: NÃOL/C: NÃOTipo "
                                     "de Carregamento.: ZPAL - PaletizadoAgrupamento: NÃOIncoterms.: NÃOQuantidade "
                                     "CNTR.: SIM - 000001SKU Espelho.: NÃOFoto: NÃOInspeção.: NÃOEtiqueta.: SIM",
-                        "load": "Datos para Contramarca – Cliente Quickfood:SIFtDescripcióntN° "
+                        "load": "!@@@@@@@@@@@@@@@@!!!!!!!!!!!!!!!!!!!!$$$$$$$$$$$$$%%%%%%%%%%%%%%%%%%%%%%%%%%%áááááa"
+                                "á´çççççççççç((())**&&¨¨¨$$@##@#@@![{[[[´´´´´`´^^^^~~~~]]}}}];;;:::...>>,,"
+                                "<<< Datos para Contramarca – Cliente Quickfood:SIFtDescripcióntN°"
                                 "RegistrotFechatVencimiento3681tCORTES DE CERDO - PERNILtI "
                                 "9186/110073/1t18/8/23t17/8/243681tCORTES DE CERDO - LOMOtI "
                                 "9186/110073/2t18/8/23t17/8/243681tCORTES DE CERDO - PALETAtI "
@@ -263,21 +358,84 @@ def create_mex_post_orders(null=None):
                         "proforma_shipment": "",
                         "csi": "QUICKFOOD SASUIPACHA 1111, PISO 18, CABA,ARGENTINA",
                         "proforma_remarks": "",
-                        "analises_requisitos": "Datos para Contramarca – Cliente Quickfood:SIFtDescripcióntN° "
-                                               "RegistrotFechatVencimiento3681tCORTES DE CERDO - PERNILtI "
-                                               "9186/110073/1t18/8/23t17/8/243681tCORTES DE CERDO - LOMOtI "
-                                               "9186/110073/2t18/8/23t17/8/243681tCORTES DE CERDO - PALETAtI "
-                                               "9186/110073/3t18/8/23t17/8/243681tCORTES DE CERDO - PANCETAtI "
-                                               "9186/110073/4t18/8/23t17/8/243681tCORTES DE CERDO - BONDIOLA tI "
-                                               "9186/110073/5t18/8/23t17/8/243681tCORTES DE CERDO - PANCETA CON "
-                                               "CUEROtI 9186/110073/6t18/8/23t17/8/24716tCORTES DE CERDO - "
-                                               "JAMONtI 9186/103041/1t18/8/23t17/8/24716tCORTES DE CERDO - "
-                                               "PALETAtI 9186/103041/2t18/8/23t17/8/24716tCORTES DE CERDO - "
-                                               "BONDIOLA tI 9186/103041/4t18/8/23t17/8/24716tCORTES DE CERDO - "
-                                               "LOMOtI 9186/103041/5t18/8/23t17/8/243515tCORTES DE CERDO CONG SIN "
-                                               "HUESO - JAMONtI 9186/113681/1t5/5/23t4/5/243515tCORTES DE CERDO "
-                                               "CONG SIN HUESO - LOMOtI 9186/113681/2t5/5/23t4/5/243515tCORTES DE "
-                                               "CERDO CONG SIN HUESO - PALETAtI 9186/113681/3t5/5/23t4/5/24"
+                        "analises_requisitos": "!@@@@@@@@@@@@@@@@!!!!!!!!!!!!!!!!!!!!$$$$$$$$$$$$$"
+                                               "%%%%%%%%%%%%%%%%%%%%%%%%%%%áááááaá´çççççççççç((())**&&¨¨¨$$@##@#@@![{"
+                                               "[[[´´´´´`´^^^^~~~~]]}}}];;;:::...>>,,<<<Lorem ipsum dolor sit amet, "
+                                               "consectetur adipiscing elit. Fusce eget eros nec nulla fringilla "
+                                               "malesuada. Integer posuere, neque a suscipit tincidunt, libero erat "
+                                               "posuere nunc, a lacinia augue turpis a augue. Nunc efficitur nunc sit "
+                                               "amet purus dictum, non ultricies dolor dapibus. Sed malesuada justo "
+                                               "eu nulla cursus, ut vulputate purus luctus. Mauris convallis, "
+                                               "purus et elementum dictum, ex nunc sodales leo, et facilisis purus "
+                                               "justo a turpis. In a condimentum orci, ac ullamcorper magna. Praesent "
+                                               "vehicula ante sit amet odio tincidunt, in efficitur justo interdum. "
+                                               "Phasellus viverra lacinia lorem in ullamcorper. Nulla facilisi. "
+                                               "Quisque vitae leo eros. Donec volutpat malesuada velit, eu vehicula "
+                                               "ex consectetur ac. Pellentesque habitant morbi tristique senectus et "
+                                               "netus et malesuada fames ac turpis egestas.\n\nSuspendisse potenti. "
+                                               "Aenean ut risus vitae lorem tempus cursus in sit amet metus. Nullam "
+                                               "id arcu eu sapien tincidunt sagittis. Vivamus malesuada ligula vitae "
+                                               "lorem dapibus blandit. Etiam et sapien nec elit pretium accumsan. "
+                                               "Nulla facilisi. Vivamus sit amet lectus at ipsum ultricies "
+                                               "condimentum. Nunc vitae est malesuada, facilisis felis id, "
+                                               "fermentum justo. Nullam vitae turpis at sapien ultrices aliquet. Sed "
+                                               "convallis dictum magna. Suspendisse gravida risus ac interdum "
+                                               "venenatis. Sed auctor quam sed erat feugiat, nec auctor nunc "
+                                               "ullamcorper. Aenean a arcu quis risus venenatis pharetra.\n\nDonec "
+                                               "bibendum quam id suscipit auctor. Maecenas consequat enim ac dolor "
+                                               "tempor, sit amet scelerisque magna pellentesque. Donec consectetur "
+                                               "arcu justo, ut vestibulum odio ultrices in. Proin tempor nisi libero, "
+                                               "et luctus nunc aliquam non. Nam condimentum purus id magna blandit, "
+                                               "in ullamcorper nunc cursus. Aliquam bibendum nibh nec magna "
+                                               "pellentesque, vel posuere odio facilisis. Cras quis risus vitae lacus "
+                                               "pharetra lobortis. Nulla facilisi. Phasellus faucibus risus non "
+                                               "sapien convallis, ut facilisis eros vulputate. Aenean sit amet metus "
+                                               "a dui varius dignissim. Fusce a nisl id nunc vehicula bibendum. "
+                                               "Curabitur sit amet turpis quis elit euismod feugiat. Phasellus rutrum "
+                                               "purus ac vehicula auctor. Sed suscipit libero eget nunc viverra, "
+                                               "non vestibulum ex bibendum. Aliquam ac enim non eros cursus "
+                                               "dignissim.\n\nNam in tincidunt lacus. Integer vulputate pharetra "
+                                               "dolor sit amet laoreet. Aliquam erat volutpat. Vivamus sed "
+                                               "scelerisque arcu, sit amet lacinia arcu. Phasellus suscipit ex sit "
+                                               "amet enim egestas, at accumsan lacus facilisis. Integer sed gravida "
+                                               "erat, in fermentum metus. Curabitur at diam sit amet libero vulputate "
+                                               "scelerisque non non leo. Fusce vehicula neque ac felis blandit "
+                                               "tristique. Quisque vel urna nec ex interdum tristique. Ut ultricies "
+                                               "metus non leo pretium, sit amet tempor elit cursus. Nullam gravida "
+                                               "ultricies nisi. Proin volutpat varius turpis et feugiat. Nulla "
+                                               "malesuada velit in quam vestibulum, ut faucibus sapien vehicula. "
+                                               "Aliquam maximus erat nec nisi elementum, at hendrerit erat "
+                                               "eleifend.\n\nCurabitur auctor neque et justo dignissim, "
+                                               "id scelerisque metus efficitur. Etiam dictum arcu id metus "
+                                               "condimentum, sed aliquam justo feugiat. Proin accumsan tortor a velit "
+                                               "vehicula, id volutpat libero ultricies. Nam mollis bibendum sapien, "
+                                               "in aliquet eros vehicula ac. Nam posuere justo ac ante convallis "
+                                               "feugiat. Suspendisse potenti. Duis tristique ligula ac nibh "
+                                               "vulputate, quis pretium nisi fermentum. Maecenas rutrum risus vitae "
+                                               "tellus gravida, vel vehicula libero feugiat. Etiam at mauris sed eros "
+                                               "consequat venenatis. Nulla facilisi. Donec nec libero in felis "
+                                               "fringilla bibendum. Etiam malesuada felis eget metus eleifend, "
+                                               "non ultrices turpis aliquet. Proin elementum sem id purus tincidunt "
+                                               "scelerisque. Donec feugiat lacus id turpis luctus, eu dapibus ex "
+                                               "dapibus. Sed tempus tortor non purus tristique, sed finibus tortor "
+                                               "pharetra.\n\nSed at magna vitae libero auctor iaculis. Curabitur "
+                                               "malesuada purus nec facilisis vulputate. Nam vulputate, sapien sit "
+                                               "amet laoreet varius, velit eros fermentum nunc, et efficitur eros "
+                                               "libero a eros. Integer posuere metus felis, sed accumsan lorem "
+                                               "posuere in. Fusce condimentum orci in urna ultrices, et aliquam "
+                                               "lectus pharetra. Quisque vestibulum mauris ac dui finibus, "
+                                               "ac tempor justo malesuada. Aliquam ut ex sed lectus vulputate "
+                                               "consequat a non dolor. Aliquam erat volutpat. Fusce et leo tortor. "
+                                               "Aliquam a ultricies nunc. In dignissim nisl sit amet pharetra "
+                                               "consequat. Nam sagittis eros nec tincidunt dignissim. Vestibulum in "
+                                               "lacinia nunc. In in nisi sem. Sed aliquet sapien nec nulla cursus, "
+                                               "vel viverra metus luctus. Nulla facilisi.\n\nDuis venenatis, "
+                                               "orci in dapibus gravida, nunc augue scelerisque libero, eu aliquam "
+                                               "orci enim quis libero. Integer ut enim id sapien congue consequat. "
+                                               "Vestibulum rhoncus nisi nec purus scelerisque laoreet. Pellentesque "
+                                               "bibendum leo et tortor convallis, at venenatis orci lacinia. Maecenas "
+                                               "ullamcorper quam sit amet metus luctus viverra. Sed venenatis"
+
                     },
                     "per_vessel": "",
                     "per_container": "",
@@ -305,11 +463,10 @@ def create_mer_post_orders(null=None):
             "delivery_date": f"{future_data.strftime('%Y-%m-%dT%H:%M:%S.388Z')}",
             "type": "YB2C",
             "channel": "OMNI",
-            "sales_organization": "1705",
+            "sales_organization": "1694",
             "customer": {
-                "document_number": "39006598852",
+                "document_number": "19231508806",
                 "payment_method": "BP1C",
-                "receiving_customer_code": "0000212026",
                 "order_number": f"EMER{order_number}"
             },
             "items": [
@@ -329,7 +486,7 @@ def create_mer_post_orders(null=None):
                 }
             ],
             "additional_info": {
-                "sales_off": "1211",
+                "sales_off": "1694",
                 "interface": "verum",
                 "payment_status": "PAID",
                 "payment_comission": "0",
@@ -340,9 +497,10 @@ def create_mer_post_orders(null=None):
                 "seller": "80615636",
                 "origin_plant": "1705",
                 "installment_value_01": "62.8600",
-                "receiver_name": "RODRIGO AUGUSTO TOSIN",
-                "customer_name": "RODRIGO AUGUSTO TOSIN",
-                "customer_email": "rodrigotosin@uol.com.br"
+                "receiver_name": "MARCIO LOPES CARVALHAL",
+                "customer_name": "MARCIO LOPES CARVALHAL",
+                "customer_email": "marciocarvalhal962@gmail.com",
+                "unloading_point": "B2C - 0812"
             },
             "url_callback": os.environ["URL_CALLBACK_DEV"]
         }
@@ -370,7 +528,7 @@ def create_souk_post_orders(null=None):
                 {
                     "sku": "000000000000763327",
                     "quantity": 10.0,
-                    "fifo_category": "RED",
+                    "fifo_category": "Z098",
                     "price": {
                         "value": 19.73,
                         "unit": "KG",
