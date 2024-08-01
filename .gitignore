@@ -1,1 +1,8 @@
-venv
+venv_fileuploader
+.idea/brf_performance_orders_ygg.iml
+.idea/misc.xml
+helpers/__pycache__/auth.cpython-312.pyc
+helpers/__pycache__/bodycreator_post_orders.cpython-312.pyc
+helpers/__pycache__/rules.cpython-312.pyc
+locustfiles/__pycache__/locustfile_operation_order.cpython-312.pyc
+.idea/
