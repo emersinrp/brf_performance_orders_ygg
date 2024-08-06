@@ -1,1 +1,8 @@
+.idea
 venv
+venv_performance_orders
+order_error.log
+order_success.log
+/helpers/__pycache__/*
+/locustfiles/__pycache__/*
+/tests/__pycache__/*

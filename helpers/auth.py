@@ -1,23 +1,29 @@
 import requests
-
+import os
 
 def get_authentication():
-    url = "https://ygg-qas.brf.cloud/token"
+    url = os.getenv("AUTH_URL")
+    client_id = os.getenv("CLIENT_ID")
+    client_secret_header = os.getenv("CLIENT_SECRET_HEADER_AUTH")
+    client_secret_payload_auth = os.getenv("CLIENT_SECRET_PAYLOAD_AUTH")
+    auth_cookie = os.getenv("AUTH_COOKIE", '')
 
-    payload = ('client_id=operation&grant_type=client_credentials&client_secret=lyd5u0UYmsbQhFIiTwGjf4Uk0vSZhPGy&scope'
-               '=openid')
+    if not client_secret_header:
+        raise ValueError("CLIENT_SECRET is not set in the environment variables")
+
+    payload = (
+        f'client_id=operation&grant_type=client_credentials&client_secret={client_secret_payload_auth}&scope=openid')
+    
     headers = {
-        'client_id': 'financial',
-        'client_secret': '17KcCvHtiqTTxmSzxjKYtnBylfZjnr6l',
+        'client_id': client_id,
+        'client_secret': client_secret_header,
         'Content-Type': 'application/x-www-form-urlencoded',
-        'Cookie': 'visid_incap_2849035=kxgVA4uDTI+ZucI9a3Dud+LOa2QAAAAAQUIPAAAAAACLiw8529l1QAxwv6n1/vyZ; '
-                  'visid_incap_2927240=kXxG8zS3QHWHS6LYFBPLyCUji2QAAAAAQUIPAAAAAACCPFSv9P7NvxrlrjlZUUEw; '
-                  'visid_incap_2849035=QjX/sH4SQR6koy2tfRfimedGf2QAAAAAQUIPAAAAAACui9L5PMATqGM3H9hysSb9; '
-                  'visid_incap_2927240=x6AYxXvhT3qd5Gt75nWZB/jf22QAAAAAQUIPAAAAAADSVyPiIIfeSzLZwIXSGZTo'
+        'Cookie': auth_cookie
     }
 
-    response = requests.request("POST", url, headers=headers, data=payload)
-    resposta = response.json()
-
-    return f'{resposta["token_type"]} {resposta["access_token"]}'
-
+    response = requests.post(url, headers=headers, data=payload)
+    if response.status_code == 401:
+        print("Unauthorized: Check your CLIENT_SECRET and AUTH_COOKIE")
+    response.raise_for_status()
+    data = response.json()
+    return f"{data['token_type']} {data['access_token']}"
