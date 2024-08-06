@@ -13,6 +13,8 @@ from helpers.order_creator import (
 )
 
 load_dotenv()
+token_authorization = get_authentication()
+nomeOrder = ""
 
 class CargaOrders(HttpUser):
     host = os.getenv("KONG_ORDERS_QAS")
